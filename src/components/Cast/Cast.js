@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import * as movieAPI from '../services/movie-api';
+import * as movieAPI from '../../services/movie-api';
 import styles from './Cast.module.css';
 import image from '../../images/no-avatar.png';
 

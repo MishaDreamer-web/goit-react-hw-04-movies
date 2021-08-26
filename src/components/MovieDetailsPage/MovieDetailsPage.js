@@ -10,15 +10,12 @@ import {
   useLocation,
 } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+
 import LoaderSpinner from '../Loader/Loader';
 
-// import PageHeading from '../PageHeading/PageHeading';
-
-import * as movieAPI from '../services/movie-api';
+import * as movieAPI from '../../services/movie-api';
 
 import image from '../../images/no-image.jpg';
-// import Cast from '../Cast/Cast';
-// import Reviews from '../Reviews/Reviews';
 
 const Cast = lazy(() =>
   import('../Cast/Cast' /* webpackChunkName: "cast-sub-page" */),

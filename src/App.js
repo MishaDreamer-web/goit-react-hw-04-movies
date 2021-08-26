@@ -6,14 +6,6 @@ import AppBar from './components/AppBar/AppBar';
 import Container from './components/Container/Container';
 import LoaderSpinner from './components/Loader/Loader';
 
-// import NotFoundView from './views/NotFoundView';
-
-// import MovieDetailsPage from './components/MovieDetailsPage/MovieDetailsPage';
-
-// import HomeView from './views/HomeView';
-
-// import MoviesPage from './components/MoviesPage/MoviesPage';
-
 const HomeView = lazy(() =>
   import('./views/HomeView.js' /* webpackChunkName: "home-page" */),
 );
